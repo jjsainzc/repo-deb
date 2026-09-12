@@ -1,0 +1,13 @@
+Origin: HC1LNM Node
+Label: HC1LNM Custom Repo
+Suite: stable
+Codename: stable
+Architectures: amd64 arm64
+Components: main
+Date: Sat, 12 Sep 2026 13:20:54 UTC
+MD5Sum:
+ bb28c3e2339e015ece0e51829f0e2b97 3066 Packages
+ 9f991b26d8a5aa6fe18f1a5b82bb1481 1104 Packages.gz
+SHA256:
+ 45013e0d0a9cd7e49504d196151dee50d60e387860430a40ba553b8e5bfef611 3066 Packages
+ b1f05dfaecb71611d23580097d82fbbd878f495cf8b613863914a38f6d142738 1104 Packages.gz

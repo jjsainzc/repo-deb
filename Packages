@@ -1,0 +1,99 @@
+Package: amerinet-web
+Version: 0.0.0~SNAPSHOT-none
+Architecture: all
+Maintainer: Jorge Jesus Sainz Casalla <jjsainzc@gmail.com>
+Installed-Size: 227
+Filename: ./amerinet-web_0.0.0-SNAPSHOT-none_all.deb
+Size: 73706
+MD5sum: c50a435338bff018a99eb27e8200fdfa
+SHA1: e939779c6921fd4cfc73cfa38acb7f4465ecc35f
+SHA256: b7cd4cb74a99d913dacd2de4def57cd8b172d53dc2fb04be1f80c4a4d034b0cf
+Priority: optional
+Homepage: https://hc1lnm.ddns.net
+Description: Paquete de despliegue para Apache con la app de Angular.
+
+Package: serverutil
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 6536
+Filename: ./serverutil_1.0.0_linux_amd64.deb
+Size: 2810498
+MD5sum: f77af50353f663aa0cab00c28662e9a1
+SHA1: f750c9b937c559946f1c4a7d932be9c7310bee44
+SHA256: 4f7f15d90788327f711caf35f6ec62cb46d359145d9c1a82b0d983410d9ea2f5
+Priority: optional
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+Architecture-Variant: amd64v1
+
+Package: serverutil
+Version: 1.0.0
+Architecture: arm64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 6144
+Filename: ./serverutil_1.0.0_linux_arm64.deb
+Size: 2561224
+MD5sum: 50a747840f3a2e666a1de990ce731a00
+SHA1: bcdd71e583f0a4201ddd4a1dd5b9c08909f67073
+SHA256: b9b4c15b3cb52efcb5cd15f3e6564a360035f7def463409950f5e10dfc81e10a
+Priority: optional
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+
+Package: serverutil
+Version: 1.0.1
+Architecture: arm64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 6144
+Filename: ./serverutil_1.0.1_linux_arm64.deb
+Size: 2549880
+MD5sum: 3f03de3f2fac203bddc724b60f2925a6
+SHA1: 9d147a1146f5fb7e88f29c4e5facd55f4a8938c1
+SHA256: 4cd04eb1d6103cb5e6c2811a4e18d89b497b667e2e10b8fb449113fd97bbb704
+Priority: optional
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+
+Package: serverutil
+Version: 1.0.1
+Architecture: amd64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 6536
+Filename: ./serverutil_1.0.1_linux_amd64.deb
+Size: 2805886
+MD5sum: fb6277701b660784ea8fa8f31d176fda
+SHA1: 038b7d314554638b816ebec1190ec6b450cb92cf
+SHA256: 6400e368b3f0c82549988141f824a4a1b76579e9ccf292a4a6263804e6a94368
+Priority: optional
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+
+Package: serverutil
+Version: 1.0.3
+Architecture: arm64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 6464
+Filename: ./serverutil_1.0.3_linux_arm64.deb
+Size: 2668740
+MD5sum: a4fc4fdf37441dc17f5b3d6becada08f
+SHA1: 4344f8fef69359e9a19b0bc54b02816a79b0b3c2
+SHA256: fc4f7750520944ce9cb464e19589ac892aa07087d881e33753d3fa4545dd4ff7
+Priority: optional
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+
+Package: serverutil
+Version: 1.0.3
+Architecture: amd64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 6852
+Filename: ./serverutil_1.0.3_linux_amd64.deb
+Size: 2935520
+MD5sum: 56321e9a2bea536f6c76b33ae69e3544
+SHA1: 7d741a2d0c17b44109c3c23c4867f83995ac797d
+SHA256: 88cc5d9db1fffa8c5956d58d7bd52efe950521cf9d18e9e96324f3af31df2cd7
+Priority: optional
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+
