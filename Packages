@@ -1,98 +1,131 @@
 Package: amerinet-web
-Version: 0.0.0~SNAPSHOT-none
+Version: 1.0.170
 Architecture: all
 Maintainer: Jorge Jesus Sainz Casalla <jjsainzc@gmail.com>
-Installed-Size: 227
-Filename: ./amerinet-web_0.0.0-SNAPSHOT-none_all.deb
-Size: 73706
-MD5sum: c50a435338bff018a99eb27e8200fdfa
-SHA1: e939779c6921fd4cfc73cfa38acb7f4465ecc35f
-SHA256: b7cd4cb74a99d913dacd2de4def57cd8b172d53dc2fb04be1f80c4a4d034b0cf
+Installed-Size: 32533
+Filename: ./amerinet-web_1.0.170_all.deb
+Size: 25602292
+MD5sum: 9f87e3118d821c8c20b5a80f0ac8f4ed
+SHA1: a6491ac390f7c5562bc9643db783f94223bd43a4
+SHA256: e7fd50fcb0bb27f64cfe4420c2aadee837cd9c5efd93f76d583238ba85b7d7db
 Priority: optional
-Homepage: https://hc1lnm.ddns.net
+Homepage: https://www.amerinet-hamradio.net
+Description: Paquete de despliegue para Apache con la app de Angular.
+
+Package: amerinet-web
+Version: 1.0.171
+Architecture: all
+Maintainer: Jorge Jesus Sainz Casalla <jjsainzc@gmail.com>
+Installed-Size: 32536
+Filename: ./amerinet-web_1.0.171_all.deb
+Size: 25599200
+MD5sum: d43970dd8e2561ce56b3c151d861a5d1
+SHA1: 962ee82c9226b5a0479a8459be15c7b3e47fc09e
+SHA256: f75282b9c5fd2a46a8b525c6bb2891924c94bc6a14fafd57eafc13b34ec73c6f
+Priority: optional
+Homepage: https://www.amerinet-hamradio.net
+Description: Paquete de despliegue para Apache con la app de Angular.
+
+Package: amerinet-web
+Version: 1.0.172
+Architecture: all
+Maintainer: Jorge Jesus Sainz Casalla <jjsainzc@gmail.com>
+Installed-Size: 32536
+Filename: ./amerinet-web_1.0.172_all.deb
+Size: 25599272
+MD5sum: ddcd13d8f5fe50dfd49b85955b7bf7bb
+SHA1: 9497e54622b6060cecb9588db763b4f03f689176
+SHA256: 3b57bcd1d5effeadbcf3cc884e3410b3be23f0c33b774d99cdb947bd7f0f56f9
+Priority: optional
+Homepage: https://www.amerinet-hamradio.net
 Description: Paquete de despliegue para Apache con la app de Angular.
 
 Package: serverutil
-Version: 1.0.0
+Version: 1.0.112
 Architecture: amd64
 Maintainer: Jorge Sainz <jjsainzc@gmail.com>
-Installed-Size: 6536
-Filename: ./serverutil_1.0.0_linux_amd64.deb
-Size: 2810498
-MD5sum: f77af50353f663aa0cab00c28662e9a1
-SHA1: f750c9b937c559946f1c4a7d932be9c7310bee44
-SHA256: 4f7f15d90788327f711caf35f6ec62cb46d359145d9c1a82b0d983410d9ea2f5
+Installed-Size: 88779
+Depends: netcat-openbsd | netcat-traditional | ncat
+Filename: ./serverutil_1.0.112_linux_amd64.deb
+Size: 41621040
+MD5sum: 0562532bc7c1a1352a35adbcc0827024
+SHA1: fc015540e6320024180bf83cebd5273532a4d827
+SHA256: dc6c43ff616fc606699c1f15ff3b2ea8f82a1063b4721088305ccac22ff94885
 Priority: optional
 Homepage: https://hc1lnm.ddns.net
 Description: Server Util Go
-Architecture-Variant: amd64v1
 
 Package: serverutil
-Version: 1.0.0
+Version: 1.0.112
 Architecture: arm64
 Maintainer: Jorge Sainz <jjsainzc@gmail.com>
-Installed-Size: 6144
-Filename: ./serverutil_1.0.0_linux_arm64.deb
-Size: 2561224
-MD5sum: 50a747840f3a2e666a1de990ce731a00
-SHA1: bcdd71e583f0a4201ddd4a1dd5b9c08909f67073
-SHA256: b9b4c15b3cb52efcb5cd15f3e6564a360035f7def463409950f5e10dfc81e10a
+Installed-Size: 87651
+Depends: netcat-openbsd | netcat-traditional | ncat
+Filename: ./serverutil_1.0.112_linux_arm64.deb
+Size: 40954734
+MD5sum: 2929b2b265f3fba38d09007b27af6838
+SHA1: 8dad74fd62a2d9037f3c2e14315b2511f6bfe9d8
+SHA256: b3e7d10d3a432b9433ed85242de096a9304e437df1ed007aa81f623066cdddf3
 Priority: optional
 Homepage: https://hc1lnm.ddns.net
 Description: Server Util Go
 
 Package: serverutil
-Version: 1.0.1
-Architecture: arm64
-Maintainer: Jorge Sainz <jjsainzc@gmail.com>
-Installed-Size: 6144
-Filename: ./serverutil_1.0.1_linux_arm64.deb
-Size: 2549880
-MD5sum: 3f03de3f2fac203bddc724b60f2925a6
-SHA1: 9d147a1146f5fb7e88f29c4e5facd55f4a8938c1
-SHA256: 4cd04eb1d6103cb5e6c2811a4e18d89b497b667e2e10b8fb449113fd97bbb704
-Priority: optional
-Homepage: https://hc1lnm.ddns.net
-Description: Server Util Go
-
-Package: serverutil
-Version: 1.0.1
+Version: 1.0.113
 Architecture: amd64
 Maintainer: Jorge Sainz <jjsainzc@gmail.com>
-Installed-Size: 6536
-Filename: ./serverutil_1.0.1_linux_amd64.deb
-Size: 2805886
-MD5sum: fb6277701b660784ea8fa8f31d176fda
-SHA1: 038b7d314554638b816ebec1190ec6b450cb92cf
-SHA256: 6400e368b3f0c82549988141f824a4a1b76579e9ccf292a4a6263804e6a94368
+Installed-Size: 88779
+Depends: netcat-openbsd | netcat-traditional | ncat
+Filename: ./serverutil_1.0.113_linux_amd64.deb
+Size: 41621468
+MD5sum: 4249d1513d0988bb2e25631d20d23a75
+SHA1: cafe38afc2904e1ff62a033952be2a2362ad58e2
+SHA256: e9e0c36fae97b57abe74ea7081f884f8e468542d2605cd21345d230c791601e9
 Priority: optional
 Homepage: https://hc1lnm.ddns.net
 Description: Server Util Go
 
 Package: serverutil
-Version: 1.0.3
+Version: 1.0.113
 Architecture: arm64
 Maintainer: Jorge Sainz <jjsainzc@gmail.com>
-Installed-Size: 6464
-Filename: ./serverutil_1.0.3_linux_arm64.deb
-Size: 2668740
-MD5sum: a4fc4fdf37441dc17f5b3d6becada08f
-SHA1: 4344f8fef69359e9a19b0bc54b02816a79b0b3c2
-SHA256: fc4f7750520944ce9cb464e19589ac892aa07087d881e33753d3fa4545dd4ff7
+Installed-Size: 87651
+Depends: netcat-openbsd | netcat-traditional | ncat
+Filename: ./serverutil_1.0.113_linux_arm64.deb
+Size: 40955112
+MD5sum: 782a5c8ba0d984940c6efa8acdd041e0
+SHA1: 3641e2b7dfd3048d14746a1dc69a77b77ba9fd86
+SHA256: 85e11173a50a1848d471240f3a5803f00cce0cec5ee6590474cca9f28df25a3d
 Priority: optional
 Homepage: https://hc1lnm.ddns.net
 Description: Server Util Go
 
 Package: serverutil
-Version: 1.0.3
+Version: 1.0.114
+Architecture: arm64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 87654
+Depends: netcat-openbsd | netcat-traditional | ncat
+Filename: ./serverutil_1.0.114_linux_arm64.deb
+Size: 40957004
+MD5sum: ac4dcc561be66f9742bef737843ed68c
+SHA1: cf7c352bc05c91eaacf2fcd367b6ae3cdacaf0c8
+SHA256: 9a5edba2845608473c47a9b4535a83954a4874dcca2f5fa18c8790d0b97e1d36
+Priority: optional
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+
+Package: serverutil
+Version: 1.0.114
 Architecture: amd64
 Maintainer: Jorge Sainz <jjsainzc@gmail.com>
-Installed-Size: 6852
-Filename: ./serverutil_1.0.3_linux_amd64.deb
-Size: 2935520
-MD5sum: 56321e9a2bea536f6c76b33ae69e3544
-SHA1: 7d741a2d0c17b44109c3c23c4867f83995ac797d
-SHA256: 88cc5d9db1fffa8c5956d58d7bd52efe950521cf9d18e9e96324f3af31df2cd7
+Installed-Size: 88782
+Depends: netcat-openbsd | netcat-traditional | ncat
+Filename: ./serverutil_1.0.114_linux_amd64.deb
+Size: 41622840
+MD5sum: 5ecb525a3afad458bc83c4967ffb9fab
+SHA1: 946a5b3f5d76fcf2622ddd247e735fb96afdbfcf
+SHA256: 05d2f23eaae73468ee5344cb9ec3c6e70554dbf18e7c13bf6d4ff6994b22c1db
 Priority: optional
 Homepage: https://hc1lnm.ddns.net
 Description: Server Util Go
