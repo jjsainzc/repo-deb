@@ -28,6 +28,11 @@ SHA256:
  $SHA256_GZ $SIZE_GZ Packages.gz
 EOF
 
-gpg --batch --yes --clearsign --output InRelease Release
+#gpg --batch --yes --clearsign --output InRelease Release
+# Cambia "TU_CONTRASEÑA_AQUÍ" por la contraseña real de tu clave GPG
+PASSPHRASE="nskdm1153"
+
+gpg --batch --yes --pinentry-mode loopback --passphrase "$PASSPHRASE" --clearsign --output InRelease Release
+gpg --batch --yes --pinentry-mode loopback --passphrase "$PASSPHRASE" -abs --output Release.gpg Release
 
 
