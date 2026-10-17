@@ -44,38 +44,6 @@ Homepage: https://www.amerinet-hamradio.net
 Description: Paquete de despliegue para Apache con la app de Angular.
 
 Package: serverutil
-Version: 1.0.113
-Architecture: amd64
-Maintainer: Jorge Sainz <jjsainzc@gmail.com>
-Installed-Size: 88779
-Depends: netcat-openbsd | netcat-traditional | ncat
-Filename: ./serverutil_1.0.113_linux_amd64.deb
-Size: 41621468
-MD5sum: 4249d1513d0988bb2e25631d20d23a75
-SHA1: cafe38afc2904e1ff62a033952be2a2362ad58e2
-SHA256: e9e0c36fae97b57abe74ea7081f884f8e468542d2605cd21345d230c791601e9
-Section: optional
-Priority: extra
-Homepage: https://hc1lnm.ddns.net
-Description: Server Util Go
-
-Package: serverutil
-Version: 1.0.113
-Architecture: arm64
-Maintainer: Jorge Sainz <jjsainzc@gmail.com>
-Installed-Size: 87651
-Depends: netcat-openbsd | netcat-traditional | ncat
-Filename: ./serverutil_1.0.113_linux_arm64.deb
-Size: 40955112
-MD5sum: 782a5c8ba0d984940c6efa8acdd041e0
-SHA1: 3641e2b7dfd3048d14746a1dc69a77b77ba9fd86
-SHA256: 85e11173a50a1848d471240f3a5803f00cce0cec5ee6590474cca9f28df25a3d
-Section: optional
-Priority: extra
-Homepage: https://hc1lnm.ddns.net
-Description: Server Util Go
-
-Package: serverutil
 Version: 1.0.114
 Architecture: arm64
 Maintainer: Jorge Sainz <jjsainzc@gmail.com>
@@ -134,6 +102,38 @@ Size: 40957280
 MD5sum: feedab53b34c46944076b8b59e6844af
 SHA1: e48241f083b672f50e8b81134f5eb98c58416d55
 SHA256: 6d3006be2fa3b65f96d18d01ab0be6ebb835046f5a9da813cb21718043ada1e1
+Section: optional
+Priority: extra
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+
+Package: serverutil
+Version: 1.0.116
+Architecture: arm64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 87654
+Depends: netcat-openbsd | netcat-traditional | ncat
+Filename: ./serverutil_1.0.116_linux_arm64.deb
+Size: 40957420
+MD5sum: c8635c085928fc108417a350ec0a2351
+SHA1: 7a7da43983749e46824a94c62b556dd4bd7a22dc
+SHA256: d3542c1efb827dd97c3ec8379719fa52dc214bf04f9cc69bdd363d7cd3656135
+Section: optional
+Priority: extra
+Homepage: https://hc1lnm.ddns.net
+Description: Server Util Go
+
+Package: serverutil
+Version: 1.0.116
+Architecture: amd64
+Maintainer: Jorge Sainz <jjsainzc@gmail.com>
+Installed-Size: 88782
+Depends: netcat-openbsd | netcat-traditional | ncat
+Filename: ./serverutil_1.0.116_linux_amd64.deb
+Size: 41622758
+MD5sum: fd3c1311c5a434abbc146390c5a15b38
+SHA1: 01ad3663cb8ca16374b94498f7ab2566d05b36cf
+SHA256: c99a766a8aa8e22a19dc18a25548f03336bb3038a7ae90ff3fbad92944fb3ba3
 Section: optional
 Priority: extra
 Homepage: https://hc1lnm.ddns.net

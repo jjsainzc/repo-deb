@@ -4,10 +4,10 @@ Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Date: Sat, 17 Oct 2026 14:22:19 UTC
+Date: Sat, 17 Oct 2026 14:33:31 UTC
 MD5Sum:
- 359a5068f84ace631c4d93628220359c 4488 Packages
- 706899c87f38b45b17eccb97dea22fb9 1335 Packages.gz
+ 7d1ce98df7dd88ca1efbef52c2964be9 4488 Packages
+ afc4381fa5964f10ac6f72b3989b5b91 1331 Packages.gz
 SHA256:
- 121461cade8586495c4bb1a4331db3252433da802d842766985fb6f5ac6f29c9 4488 Packages
- 7a6963adfa5627dca56f706a34ed026ecd66aa7df40d7ffc6d26b97869f14a72 1335 Packages.gz
+ 8069d2e269b09e2103a5b24a6f5e8b2631cd4de18d3bda65e2d38ac05af5bea6 4488 Packages
+ 3b4e639914b92cfdba84e40d95b2ba6365a5c1f043d014abb214ec304bc1baff 1331 Packages.gz
