@@ -7,24 +7,24 @@ Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Date: Sat, 17 Oct 2026 14:33:31 UTC
+Date: Sat, 17 Oct 2026 14:59:45 UTC
 MD5Sum:
  7d1ce98df7dd88ca1efbef52c2964be9 4488 Packages
- afc4381fa5964f10ac6f72b3989b5b91 1331 Packages.gz
+ 0b770ae3bdfcc0a0d47fd9b8b55ce9bb 1331 Packages.gz
 SHA256:
  8069d2e269b09e2103a5b24a6f5e8b2631cd4de18d3bda65e2d38ac05af5bea6 4488 Packages
- 3b4e639914b92cfdba84e40d95b2ba6365a5c1f043d014abb214ec304bc1baff 1331 Packages.gz
+ 4bef884fda66f7f0011a2e48407eba19131e026c2d50152c1f360fd819f0709d 1331 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEnaUbIwmch/bhRkSKUFh1jJnNcnEFAmrThzsACgkQUFh1jJnN
-cnEwjgwAkGEiJ+lXqPlKfFt/udLW1p00Fud0aH7QhdrcE8eoNph7sgfhmduHX8o+
-fo9OHg5++5SRYVKF/odGjYPlSQIHwwhIIWuDcUSK6X5P2cq6aSxFxpXSZwh1+ecS
-8gW3yDeB9t4B2YVIXFn3OkLKrjuh5ntii4pRxuxNeYV6+RTnc5BOqiHCvmmGImcU
-dbJpXE6N63qjC9RGQCeB9eHbYswjCGtGpM5tjp42zLAck+xIU0B6jzjMoba1fLOj
-222LXeV1r31KcB4wluUPASeDWwMDMCRR1ZSaOxq2gghUrABOwNkOqEu8ulJ1Bf5T
-EgNhYXqCtMgkvmTmgo+PX/iRRJw32JdoLj5/B58yb/6WRyQPEiZ8p1cy1zcPflBr
-wzeEdqUQD1VwGUdtVxFbKY3K17P0Lagk1LmYjlkBP/hwMdRybIr/cio3psM1s1SS
-5fhOKVwCyDdZglZAByftDv4dg8yhqlv7++i4hKCXRsNyXOdzOC+HpZ5h3cW6nYSW
-8cTlOL+C
-=Qvz+
+iQGzBAEBCgAdFiEEnaUbIwmch/bhRkSKUFh1jJnNcnEFAmrTjWEACgkQUFh1jJnN
+cnE++Qv/Vbtksz9aEj+Uahbb5IgbEKH2WiouKuuvO4w7PLnMxY4JT/NrmgGAyCjY
+4kEhqmveQuEu/NYUhiIl1jedfwfBPCsCpin9HDd/Di4AzR0NycgILBcxbGnDL0Cf
+plqBplyilqRRcHfcvJtjSysqvLC4uoAaVK5CG7YiThUwCjgfBSx9rI0UOLG7QeQr
+HHsQzzuvmvJJn2MCIEXQUKYnfVRT9m4+waWjVJevRRGkXwSLMza/3CwbvMzY7Fq/
++7ppKGcpeK+7iwlNm2x+DLLbJ8rCTb/MkmDRoGcWOdNkPZLQxSXBNK5w37CzO0pB
+lMXhnvqSCl7484ehZu1yurrVyEkSmbK8mKDFVtywGxeeouMB2K0c+Pjvi7+44tq7
+r8ctnHJ2FAl7pqAcLD5CnFYvhhxqLjnN3g2D4eDFwPolexEiSpBj97ity829aKR1
+p7UTGG/5oa8Tmb4epMTh/nkqNLcvQ4N+tGk4VVqS0SJTy8nGPqZGt1f1BXUvle6x
+IHg7MD2E
+=FLSj
 -----END PGP SIGNATURE-----
