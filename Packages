@@ -1,43 +1,71 @@
+Package: amerimon
+Version: 0.0.1
+Architecture: arm64
+Maintainer: Amerimon <admin@example.com>
+Installed-Size: 17479
+Filename: ./amerimon_0.0.1_linux_arm64.deb
+Size: 6693654
+MD5sum: ebd6fade00e63c9f8c09af79181f223c
+SHA1: 7c49527a3204092a79ff5fa9bef9fce384206bd8
+SHA256: f3832b51cc513e1d90cc7be6304c31302c2048b910f35ca88a98670205fe3d35
+Section: web
+Priority: optional
+Description: Amerimon web application with embedded Angular frontend and SQLite storage.
+
+Package: amerimon
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Amerimon <admin@example.com>
+Installed-Size: 18087
+Filename: ./amerimon_0.0.1_linux_amd64.deb
+Size: 7065590
+MD5sum: 91935976e80565a0f17e3d085430d544
+SHA1: 5953646e1f3d27add96a6e8e97826964376e7740
+SHA256: d8d37dc7515efb00db38ed04f420ef633e81eefd98747e07006fd7d2d149353c
+Section: web
+Priority: optional
+Description: Amerimon web application with embedded Angular frontend and SQLite storage.
+
 Package: amerinet-web
-Version: 1.0.170
+Version: 1.0.175
 Architecture: all
 Maintainer: Jorge Jesus Sainz Casalla <jjsainzc@gmail.com>
-Installed-Size: 32533
-Filename: ./amerinet-web_1.0.170_all.deb
-Size: 25602292
-MD5sum: 9f87e3118d821c8c20b5a80f0ac8f4ed
-SHA1: a6491ac390f7c5562bc9643db783f94223bd43a4
-SHA256: e7fd50fcb0bb27f64cfe4420c2aadee837cd9c5efd93f76d583238ba85b7d7db
+Installed-Size: 32515
+Filename: ./amerinet-web_1.0.175_all.deb
+Size: 25600928
+MD5sum: 25500f288166f3751ff90a7786098b74
+SHA1: d074af3304ca06e33d23c5364ddd9314a7f9e3e8
+SHA256: 5f083fe049d48b5bc0deef4b5a4b5e1047c1822e3d6e283a77a9a83e5b01af97
 Section: optional
 Priority: extra
 Homepage: https://www.amerinet-hamradio.net
 Description: Paquete de despliegue para Apache con la app de Angular.
 
 Package: amerinet-web
-Version: 1.0.171
+Version: 1.0.176
 Architecture: all
 Maintainer: Jorge Jesus Sainz Casalla <jjsainzc@gmail.com>
-Installed-Size: 32536
-Filename: ./amerinet-web_1.0.171_all.deb
-Size: 25599200
-MD5sum: d43970dd8e2561ce56b3c151d861a5d1
-SHA1: 962ee82c9226b5a0479a8459be15c7b3e47fc09e
-SHA256: f75282b9c5fd2a46a8b525c6bb2891924c94bc6a14fafd57eafc13b34ec73c6f
+Installed-Size: 32514
+Filename: ./amerinet-web_1.0.176_all.deb
+Size: 25595586
+MD5sum: edd84a5723318c52733048f102be8a15
+SHA1: a7e9b7aa67dc43bdd62c1f938bda48f727d1cef6
+SHA256: c37bbbf7298cda99aab4733f327e4ebb33f11037fd693e08dbbbf91d27b2d80b
 Section: optional
 Priority: extra
 Homepage: https://www.amerinet-hamradio.net
 Description: Paquete de despliegue para Apache con la app de Angular.
 
 Package: amerinet-web
-Version: 1.0.172
+Version: 1.0.177
 Architecture: all
 Maintainer: Jorge Jesus Sainz Casalla <jjsainzc@gmail.com>
-Installed-Size: 32536
-Filename: ./amerinet-web_1.0.172_all.deb
-Size: 25599272
-MD5sum: ddcd13d8f5fe50dfd49b85955b7bf7bb
-SHA1: 9497e54622b6060cecb9588db763b4f03f689176
-SHA256: 3b57bcd1d5effeadbcf3cc884e3410b3be23f0c33b774d99cdb947bd7f0f56f9
+Installed-Size: 32504
+Filename: ./amerinet-web_1.0.177_all.deb
+Size: 25602774
+MD5sum: cb694864eb83cc06f366bbcb107c3f7c
+SHA1: 7427874e2801e3b661d693016bcd18e286b29f7c
+SHA256: 40d250ec68b4e3ceca8fc0305ba7b3cd1f95fd678101a9d9c4bb32db32a95f0f
 Section: optional
 Priority: extra
 Homepage: https://www.amerinet-hamradio.net
