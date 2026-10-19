@@ -27,6 +27,9 @@ curl -fsSL https://raw.githubusercontent.com/jjsainzc/repo-deb/main/hc1lnm.gpg \
 echo "deb [signed-by=/usr/share/keyrings/hc1lnm-archive-keyring.gpg arch=$(dpkg --print-architecture)] https://jjsainzc.github.io/repo-deb/ ./" \
 	| sudo tee /etc/apt/sources.list.d/amerinet.list
 ```
+
+## Instalar la primera vez después de configurar el repositorio
+
 <div style="background-color: #1e1e1e; color: #d4d4d4; border-left: 5px solid #007acc; padding: 15px; border-radius: 6px; margin-bottom: 10px; font-family: monospace;">
   <span style="color: #6a9955;"># Actualizar repositorios:</span><br>
   <span style="color: #4ec9b0;">sudo</span> apt update<br><br>
