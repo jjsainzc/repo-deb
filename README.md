@@ -18,7 +18,7 @@ Interfaz web y API para monitorizar AllStarLink, administrar nodos Allmon y escu
 
 Al instalar, se intenta configurar el proxy de Apache o Nginx para `/amerimon`. Si no hay servidor web, se puede acceder directamente por `http://<IP-del-servidor>:8082/`. En el primer acceso, pulsa **Admin** para crear la cuenta y contraseña iniciales. Para restablecer la contraseña: `sudo amerimon-reset-password`.
 
-## Instalación
+## Configuración del repositorio para la instalación de los paquetes
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jjsainzc/repo-deb/main/hc1lnm.gpg \
@@ -32,7 +32,7 @@ sudo apt install serverutil
 o 
 sudo apt install amerimon
 ```
-> <mark><span style="color:red">**NOTA IMPORTANTE**:</span></mark> No se pueden tener las dos aplicaciones en un mismo server porque comparten el puerto del liste-live 
+> <mark><span style="color:red">**NOTA IMPORTANTE**:</span></mark> No se pueden tener las dos aplicaciones en un mismo server porque comparten el puerto del listen-live 
 
 
 ## Actualización y estado
@@ -41,5 +41,6 @@ sudo apt install amerimon
 sudo apt update
 sudo apt upgrade
 sudo systemctl status serverutils --no-pager
+o
 sudo systemctl status amerimon --no-pager
 ```
