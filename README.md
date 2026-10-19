@@ -26,21 +26,27 @@ curl -fsSL https://raw.githubusercontent.com/jjsainzc/repo-deb/main/hc1lnm.gpg \
 
 echo "deb [signed-by=/usr/share/keyrings/hc1lnm-archive-keyring.gpg arch=$(dpkg --print-architecture)] https://jjsainzc.github.io/repo-deb/ ./" \
 	| sudo tee /etc/apt/sources.list.d/amerinet.list
-
-sudo apt update
-sudo apt install serverutil 
-o 
-sudo apt install amerimon
 ```
+<div style="background-color: #1e1e1e; color: #d4d4d4; border-left: 5px solid #007acc; padding: 15px; border-radius: 6px; margin-bottom: 10px; font-family: monospace;">
+  <span style="color: #6a9955;"># Actualizar repositorios:</span><br>
+  <span style="color: #4ec9b0;">sudo</span> apt update<br><br>
+  <span style="color: #6a9955;"># Instalar paquete principal (servidor):</span><br>
+  <span style="color: #4ec9b0;">sudo</span> apt install serverutil<br><br>
+  <span style="color: #6a9955;"># O alternativamente para la interfaz/monitoreo:</span><br>
+  <span style="color: #4ec9b0;">sudo</span> apt install amerimon
+</div>
+
 > <mark><span style="color:red">**NOTA IMPORTANTE**:</span></mark> No se pueden tener las dos aplicaciones en un mismo server porque comparten el puerto del listen-live 
 
 
 ## Actualización y estado
 
-```bash
-sudo apt update
-sudo apt upgrade
-sudo systemctl status serverutils --no-pager
-o
-sudo systemctl status amerimon --no-pager
-```
+<div style="background-color: #1e1e1e; color: #d4d4d4; border-left: 5px solid #007acc; padding: 15px; border-radius: 6px; margin-bottom: 10px; font-family: monospace;">
+  <span style="color: #6a9955;"># Actualizar repositorios y paquetes:</span><br>
+  <span style="color: #4ec9b0;">sudo</span> apt update<br>
+  <span style="color: #4ec9b0;">sudo</span> apt upgrade<br><br>
+  <span style="color: #6a9955;"># Verificar estado del servicio del servidor:</span><br>
+  <span style="color: #4ec9b0;">sudo</span> systemctl status serverutils --no-pager<br><br>
+  <span style="color: #6a9955;"># O verificar estado del servicio de monitoreo/interfaz:</span><br>
+  <span style="color: #4ec9b0;">sudo</span> systemctl status amerimon --no-pager
+</div>
