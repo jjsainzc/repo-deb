@@ -28,8 +28,12 @@ echo "deb [signed-by=/usr/share/keyrings/hc1lnm-archive-keyring.gpg arch=$(dpkg 
 	| sudo tee /etc/apt/sources.list.d/amerinet.list
 
 sudo apt update
-sudo apt install serverutil amerimon
+sudo apt install serverutil 
+o 
+sudo apt install amerimon
 ```
+> <mark><span style="color:red">**NOTA IMPORTANTE**:</span></mark> No se pueden tener las dos aplicaciones en un mismo server porque comparten el puerto del liste-live 
+
 
 ## Actualización y estado
 
