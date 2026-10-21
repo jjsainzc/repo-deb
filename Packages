@@ -1,34 +1,4 @@
 Package: amerimon
-Version: 1.0.14
-Architecture: arm64
-Maintainer: Amerimon <admin@example.com>
-Installed-Size: 17936
-Depends: curl, netcat-openbsd | netcat-traditional | ncat
-Filename: ./amerimon_1.0.14_linux_arm64.deb
-Size: 6903284
-MD5sum: f10d247314e64efd0733df09f8276e02
-SHA1: 8a4434ead069f0a6d901d54a3f4f9ec80cc5b119
-SHA256: c0a8e2c48d7834fd84bf9dfa343849f3b34c063605a06debb42a03f59a7b2f53
-Section: optional
-Priority: extra
-Description: Amerimon web application with embedded Angular frontend and SQLite storage.
-
-Package: amerimon
-Version: 1.0.14
-Architecture: amd64
-Maintainer: Amerimon <admin@example.com>
-Installed-Size: 18624
-Depends: curl, netcat-openbsd | netcat-traditional | ncat
-Filename: ./amerimon_1.0.14_linux_amd64.deb
-Size: 7291522
-MD5sum: 9031e6f24fd50514b34767a0a083c424
-SHA1: 6cc6a6ce2dc9dd3a37d6c1d7ef9df7822a236bf2
-SHA256: bc70e489509d28c5f7923b66a209f4ed7c5e73596f4450e686054111b65ef29c
-Section: optional
-Priority: extra
-Description: Amerimon web application with embedded Angular frontend and SQLite storage.
-
-Package: amerimon
 Version: 1.0.15
 Architecture: amd64
 Maintainer: Amerimon <admin@example.com>
@@ -84,6 +54,36 @@ Size: 7344856
 MD5sum: 3053c114f3d4790c7af8745effcd1330
 SHA1: 118567582dd4dd412f42d1ab4bad065fad660580
 SHA256: 3983a90b6853b856c89612119c0f24d86a1214e245bab724a9d4e30a6acf1ccf
+Section: optional
+Priority: extra
+Description: Amerimon web application with embedded Angular frontend and SQLite storage.
+
+Package: amerimon
+Version: 1.0.17
+Architecture: arm64
+Maintainer: Amerimon <admin@example.com>
+Installed-Size: 18064
+Depends: curl, libc-bin, libnss-mdns, avahi-daemon, netcat-openbsd | netcat-traditional | ncat
+Filename: ./amerimon_1.0.17_linux_arm64.deb
+Size: 6953138
+MD5sum: 74357dacef547baa633f28d6d397e3d7
+SHA1: 40b01c01ef37cf885e4b68aa65a1207321e25fc3
+SHA256: 10185ba44635953ec9abd5634be5bb94cf42410553de00726a58dc8e44895ab8
+Section: optional
+Priority: extra
+Description: Amerimon web application with embedded Angular frontend and SQLite storage.
+
+Package: amerimon
+Version: 1.0.17
+Architecture: amd64
+Maintainer: Amerimon <admin@example.com>
+Installed-Size: 18756
+Depends: curl, libc-bin, libnss-mdns, avahi-daemon, netcat-openbsd | netcat-traditional | ncat
+Filename: ./amerimon_1.0.17_linux_amd64.deb
+Size: 7348026
+MD5sum: cde13e0d817491330609a1a54b9068e6
+SHA1: d83dfb1f61e21783de9ebcb752be7d010d5e09c1
+SHA256: 55a0e9e0ea9ac1baaa8c669ee7d867a4f0aa91260d3f198a8278084990dda52b
 Section: optional
 Priority: extra
 Description: Amerimon web application with embedded Angular frontend and SQLite storage.
