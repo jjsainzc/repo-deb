@@ -71,6 +71,12 @@ En `apt-cache policy`, **Installed/Instalados** es la versión instalada y **Can
 
 No es necesario agregar `amerinet.list` ni importar la clave del repositorio para instalar un archivo `.deb` local. Descarga el paquete desde [los archivos publicados](https://github.com/jjsainzc/repo-deb) o desde [el sitio de paquetes](https://jjsainzc.github.io/repo-deb/), eligiendo la versión y arquitectura correctas.
 
+Si GitHub Pages devuelve `404` para un paquete recién publicado, comprueba que el archivo exista en los archivos publicados y usa su descarga directa desde `raw.githubusercontent.com`. Pages puede no haber terminado de desplegar esa versión. Por ejemplo:
+
+```bash
+curl -fLO https://raw.githubusercontent.com/jjsainzc/repo-deb/main/amerimon_1.0.35_linux_amd64.deb
+```
+
 ```bash
 # Arquitectura Debian del servidor: amd64 o arm64.
 dpkg --print-architecture
