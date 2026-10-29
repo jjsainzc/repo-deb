@@ -1,34 +1,4 @@
 Package: amerimon
-Version: 1.0.35
-Architecture: amd64
-Maintainer: Amerimon <support@amerinet-hamradio.net>
-Installed-Size: 19248
-Depends: curl, libc-bin, libnss-mdns, avahi-daemon, netcat-openbsd | netcat-traditional | ncat
-Filename: ./amerimon_1.0.35_linux_amd64.deb
-Size: 7530338
-MD5sum: 3de27bfaa39aee27ea03b9ac3b80a6b4
-SHA1: ccfeb8489c1c1199e3350d4fa5682e6813670b8a
-SHA256: 41a409fb8ee9a17b2a81a145df271d962b0884ee73ab778ec402194192ecacc4
-Section: optional
-Priority: extra
-Description: Amerimon web application with embedded Angular frontend and SQLite storage.
-
-Package: amerimon
-Version: 1.0.35
-Architecture: arm64
-Maintainer: Amerimon <support@amerinet-hamradio.net>
-Installed-Size: 18512
-Depends: curl, libc-bin, libnss-mdns, avahi-daemon, netcat-openbsd | netcat-traditional | ncat
-Filename: ./amerimon_1.0.35_linux_arm64.deb
-Size: 7130364
-MD5sum: 034a0167a869aba91364c6e25c83c54c
-SHA1: c0f25ee012953774bd1a38fd2d2f8e3263da65e0
-SHA256: b2df2474f1cabf1cd86397353929d4c963214a59b31d15a776677cb58ab98ff2
-Section: optional
-Priority: extra
-Description: Amerimon web application with embedded Angular frontend and SQLite storage.
-
-Package: amerimon
 Version: 1.0.36
 Architecture: arm64
 Maintainer: Amerimon <support@amerinet-hamradio.net>
@@ -84,6 +54,36 @@ Size: 7571020
 MD5sum: ac0b192b47e3629ddbb7b7019d150533
 SHA1: 14a28e0926021d5d8a40b06d04490db1d722e14f
 SHA256: 313a24b64a4bf3e5d7d908b2d67fc525ed107ec757d07e3b0523d17d3126d9cf
+Section: optional
+Priority: extra
+Description: Amerimon web application with embedded Angular frontend and SQLite storage.
+
+Package: amerimon
+Version: 1.0.38
+Architecture: arm64
+Maintainer: Amerimon <support@amerinet-hamradio.net>
+Installed-Size: 18655
+Depends: curl, libc-bin, libnss-mdns, avahi-daemon, netcat-openbsd | netcat-traditional | ncat
+Filename: ./amerimon_1.0.38_linux_arm64.deb
+Size: 7167130
+MD5sum: d266692842a9cfda548c3c3af5fc323b
+SHA1: d5761d3a62e9e97f17a02f36b93569a8bc3ad6a1
+SHA256: ff10e68332261af1a30d4f9bada534e1685b5dd42fc1e2eae69d3e1969cc2ee3
+Section: optional
+Priority: extra
+Description: Amerimon web application with embedded Angular frontend and SQLite storage.
+
+Package: amerimon
+Version: 1.0.38
+Architecture: amd64
+Maintainer: Amerimon <support@amerinet-hamradio.net>
+Installed-Size: 19379
+Depends: curl, libc-bin, libnss-mdns, avahi-daemon, netcat-openbsd | netcat-traditional | ncat
+Filename: ./amerimon_1.0.38_linux_amd64.deb
+Size: 7571800
+MD5sum: baacdfcff712f90f839a969e2d26936b
+SHA1: 5365177a6938ea45eab495d5506a17cb8c2508a2
+SHA256: e7115cacc32b9b4fb117afdb589b2f0ce55ab10c70c806ce4ac4e3a30f00cfa9
 Section: optional
 Priority: extra
 Description: Amerimon web application with embedded Angular frontend and SQLite storage.
