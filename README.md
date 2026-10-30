@@ -124,7 +124,7 @@ El prefijo `./` indica a APT que debe instalar el archivo local. APT resuelve la
 
 La revisión con `dpkg-deb --field` muestra los metadatos, pero no verifica la autenticidad del archivo. Descarga únicamente desde la fuente oficial mediante HTTPS. Al instalar directamente un `.deb`, no se aplica la verificación del índice firmado de este repositorio APT.
 
-Si no configuras este repositorio, las nuevas versiones de estas aplicaciones no se recibirán automáticamente con `apt upgrade`: tendrás que descargar el nuevo `.deb` y repetir la instalación manual. ServerUtils sigue necesitando MariaDB/MySQL y la preparación del esquema descrita al principio de este documento.
+Si no configuras este repositorio, las nuevas versiones de estas aplicaciones no se recibirán automáticamente con `apt upgrade`: tendrás que descargar el nuevo `.deb` y repetir la instalación manual. ServerUtils sigue necesitando SqLite3/MySQL y la preparación del esquema descrita al principio de este documento.
 
 ## Actualización y estado
 
