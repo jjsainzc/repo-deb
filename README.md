@@ -1,5 +1,13 @@
 # Repositorio público de paquetes
 
+
+<div style="background-color: #ecee8d; border-left: 5px solid #ffc107; color: #856404; padding: 15px 20px; font-family: system-ui, -apple-system, sans-serif; border-radius: 4px; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <strong style="font-size: 1.05em;">⚠️ IMPORTANTE:</strong>
+  <p style="margin: 8px 0 0 0; line-height: 1.5;">
+Estos dos paquetes estan diseñados para tener un solo número de nodo por Asterisk que actúa como <i>Principal</i>, por supuesto que es posible tener mas de uno registrado en el mismo, si ese es el caso, puede ser que algunas funciones no trabajen correctamente
+  </p>
+</div>
+
 Paquetes Debian para `amd64` y `arm64`.
 
 ## Paquetes
