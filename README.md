@@ -18,7 +18,7 @@ API REST de desarrollo y administración, implementada en Go/Echo. Expone servic
 
 La base de datos MariaDB/MySQL debe estar creada y accesible antes de usar la API. El paquete instala el esquema en `/etc/serverutils/serverutils.sql` y la configuración en `/etc/serverutils/`; el postinstalador no crea el servidor ni importa automáticamente el esquema.
 
-Documentación de rutas: [Swagger UI](https://www.amerinet-hamradio.net/api/swagger/index.html).
+Documentación de rutas: [Swagger  UI](https://www.amerinet-hamradio.net/api/swagger/index.html).
 
 ### Amerimon (`amerimon`)
 
