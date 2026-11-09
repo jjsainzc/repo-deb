@@ -36,6 +36,15 @@ echo "deb [signed-by=/usr/share/keyrings/hc1lnm-archive-keyring.gpg arch=$(dpkg 
 	| sudo tee /etc/apt/sources.list.d/amerinet.list
 ```
 
+Si el repositorio de GiutHub no funcionara puede intentar con este
+
+```bash
+
+echo "deb [signed-by=/usr/share/keyrings/hc1lnm-archive-keyring.gpg arch=$(dpkg --print-architecture)] https://616262.nodes.allstarlink.org/repo/ ./" \
+	| sudo tee /etc/apt/sources.list.d/amerinet.list
+```
+
+
 ## Instalar la primera vez después de configurar el repositorio
 
 <div style="background-color: #1e1e1e; color: #d4d4d4; border-left: 5px solid #007acc; padding: 15px; border-radius: 6px; margin-bottom: 10px; font-family: monospace;">
