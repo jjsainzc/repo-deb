@@ -36,7 +36,7 @@ echo "deb [signed-by=/usr/share/keyrings/hc1lnm-archive-keyring.gpg arch=$(dpkg 
 	| sudo tee /etc/apt/sources.list.d/amerinet.list
 ```
 
-Si el repositorio de GiutHub no funcionara puede intentar con este
+Si el repositorio de GitHub no funcionara puede intentar con este
 
 ```bash
 
