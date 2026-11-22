@@ -4,7 +4,7 @@
 <div style="background-color: #ecee8d; border-left: 5px solid #ffc107; color: #856404; padding: 15px 20px; font-family: system-ui, -apple-system, sans-serif; border-radius: 4px; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
   <strong style="font-size: 1.05em;">⚠️ IMPORTANTE:</strong>
   <p style="margin: 8px 0 0 0; line-height: 1.5;">
-Estos dos paquetes estan diseñados para tener un solo número de nodo por Asterisk que actúa como <i>Principal</i>, por supuesto que es posible tener mas de uno registrado en el mismo, si ese es el caso, puede ser que algunas funciones no trabajen correctamente
+ServerUtils y Amerimon están diseñados para tener un solo número de nodo por Asterisk que actúa como <i>Principal</i>; si hay varios, algunas funciones podrían no trabajar correctamente.
   </p>
 </div>
 
@@ -25,6 +25,29 @@ Documentación de rutas: [Swagger  UI](https://www.amerinet-hamradio.net/api/swa
 Interfaz web y API para monitorizar AllStarLink, administrar nodos Allmon y escuchar el nodo principal de Asterisk. Usa SQLite local, sin servidor de base de datos adicional. El servicio systemd se llama `amerimon` y escucha en el puerto `8082`; Listen Live usa el puerto local `8086`.
 
 Al instalar, se intenta configurar el proxy de Apache o Nginx para `/amerimon`. Si no hay servidor web, se puede acceder directamente por `http://<IP-del-servidor>:8082/`. En el primer acceso, pulsa **Admin** para crear la cuenta y contraseña iniciales. Para restablecer la contraseña: `sudo amerimon-reset-password`.
+
+### Ameriboard (`ameriboard`)
+
+Dashboard para consultar la actividad de reflectores YSF, DMR y EchoLink. El
+servicio `ameriboard` usa por defecto `127.0.0.1:8087` y la ruta
+`/ameriboard/`; en la primera instalación puede elegir otro puerto si 8087 está
+ocupado. La configuración queda en `/etc/ameriboard/ameriboard.yaml`, y los
+directorios de logs configurados deben ser legibles para el servicio.
+
+El paquete intenta configurar el proxy de Apache o Nginx. Se pueden administrar
+perfiles para consultar otros sitios Ameriboard y elegir cuáles mostrar a los
+visitantes. Para administrar perfiles y consultar sitios remotos es necesario
+configurar HTTPS y crear el administrador de cada instalación; consulta las
+[instrucciones de Ameriboard](https://github.com/jjsainzc/ameriboard).
+
+Para crear el primer administrador, entra por HTTPS a **Administrar sitios**
+y elige una contraseña. Hazlo inmediatamente después de instalar: hasta que
+se cree el administrador, el primer visitante puede completar este paso.
+Para añadir otro Ameriboard, introduce su dirección HTTPS y la contraseña de
+su administrador, obtenida de forma segura del responsable del sitio.
+
+El paquete se podrá instalar una vez publicada una versión en este repositorio.
+Los comandos de instalación siguientes requieren que dicha versión esté publicada.
 
 ## Configuración del repositorio para la instalación de los paquetes
 
@@ -53,10 +76,12 @@ echo "deb [signed-by=/usr/share/keyrings/hc1lnm-archive-keyring.gpg arch=$(dpkg 
   <span style="color: #6a9955;"># Instalar paquete principal (servidor):</span><br>
   <span style="color: #4ec9b0;">sudo</span> apt install serverutil<br><br>
   <span style="color: #6a9955;"># O alternativamente para la interfaz/monitoreo:</span><br>
-  <span style="color: #4ec9b0;">sudo</span> apt install amerimon
+  <span style="color: #4ec9b0;">sudo</span> apt install amerimon<br><br>
+  <span style="color: #6a9955;"># Para el dashboard de reflectores, una vez publicado:</span><br>
+  <span style="color: #4ec9b0;">sudo</span> apt install ameriboard
 </div>
 
-> <mark><span style="color:red">**NOTA IMPORTANTE**:</span></mark> No se pueden tener las dos aplicaciones en un mismo server porque comparten el puerto del listen-live.
+> <mark><span style="color:red">**NOTA IMPORTANTE**:</span></mark> Amerimon y ServerUtils no deben instalarse en el mismo servidor porque comparten el puerto de Listen Live.
 
 ## Consultar las versiones instaladas y disponibles
 
@@ -64,12 +89,14 @@ Estos comandos se ejecutan por SSH o en una terminal del servidor donde está in
 
 ```bash
 # Versión, arquitectura y estado de los paquetes en este servidor:
-dpkg-query -W -f='${Package}\t${Version}\t${Architecture}\t${Status}\n' amerimon serverutil
+dpkg-query -W -f='${Package}\t${Version}\t${Architecture}\t${Status}\n' amerimon serverutil ameriboard
 
 # Otra opción, con información detallada de cada paquete:
 dpkg -s amerimon
 # O, si usas ServerUtils:
 dpkg -s serverutil
+# O, para el dashboard de reflectores:
+dpkg -s ameriboard
 ```
 
 Consulta el paquete que utilices: si uno no está instalado, `dpkg-query` o `dpkg -s` lo indicará. El estado `install ok installed` confirma que el paquete está instalado; no confirma que el servicio esté funcionando. Para eso utiliza los comandos `systemctl status` de la sección **Actualización y estado**.
@@ -78,8 +105,8 @@ Si configuraste el repositorio APT, puedes comparar la versión instalada con la
 
 ```bash
 sudo apt update
-apt-cache policy amerimon serverutil
-apt-cache madison amerimon serverutil
+apt-cache policy amerimon serverutil ameriboard
+apt-cache madison amerimon serverutil ameriboard
 ```
 
 En `apt-cache policy`, **Installed/Instalados** es la versión instalada y **Candidate/Candidato** la que APT instalaría. `apt update` solo actualiza los índices; no instala ni actualiza las aplicaciones. Las versiones disponibles dependen de los repositorios configurados y de la arquitectura del servidor.
@@ -99,7 +126,7 @@ curl -fLO https://raw.githubusercontent.com/jjsainzc/repo-deb/main/amerimon_1.0.
 dpkg --print-architecture
 ```
 
-Los siguientes ejemplos usan versiones publicadas al redactar esta sección; sustituye la versión por la que quieras instalar. Ejecuta **solo el bloque de la aplicación que utilices**: Amerimon y ServerUtils comparten el puerto Listen Live y no deben instalarse juntos.
+Los siguientes ejemplos usan versiones publicadas al redactar esta sección; sustituye la versión por la que quieras instalar. Amerimon y ServerUtils comparten el puerto Listen Live y no deben instalarse juntos. Ameriboard es un dashboard independiente.
 
 ### Amerimon
 
@@ -135,6 +162,20 @@ dpkg-query -W -f='${Package}\t${Version}\t${Architecture}\t${Status}\n' serverut
 sudo systemctl status serverutils --no-pager
 ```
 
+### Ameriboard
+
+Cuando se publique, descarga el `.deb` `ameriboard_<versión>_linux_<arquitectura>.deb`
+correspondiente de los archivos publicados. Sustituye `VERSION` y `ARQUITECTURA`
+en los siguientes nombres por la versión y arquitectura del archivo descargado:
+
+```bash
+dpkg-deb --field ./ameriboard_VERSION_linux_ARQUITECTURA.deb Package Version Architecture
+sudo apt update
+sudo apt install ./ameriboard_VERSION_linux_ARQUITECTURA.deb
+dpkg-query -W -f='${Package}\t${Version}\t${Architecture}\t${Status}\n' ameriboard
+sudo systemctl status ameriboard --no-pager
+```
+
 El mismo procedimiento sirve para una instalación nueva o para actualizar un paquete ya instalado a una versión más reciente. Antes de actualizar, respalda la configuración y la base de datos de la aplicación; la instalación puede reiniciar el servicio e interrumpir las escuchas.
 
 El prefijo `./` indica a APT que debe instalar el archivo local. APT resuelve las dependencias desde los repositorios Debian configurados: esto evita configurar **este repositorio de aplicaciones**, pero no equivale a una instalación sin Internet. No uses únicamente `dpkg -i` si necesitas que se descarguen las dependencias.
@@ -152,5 +193,7 @@ Si no configuras este repositorio, las nuevas versiones de estas aplicaciones no
   <span style="color: #6a9955;"># Verificar estado del servicio del servidor:</span><br>
   <span style="color: #4ec9b0;">sudo</span> systemctl status serverutils --no-pager<br><br>
   <span style="color: #6a9955;"># O verificar estado del servicio de monitoreo/interfaz:</span><br>
-  <span style="color: #4ec9b0;">sudo</span> systemctl status amerimon --no-pager
+  <span style="color: #4ec9b0;">sudo</span> systemctl status amerimon --no-pager<br><br>
+  <span style="color: #6a9955;"># Verificar el dashboard de reflectores:</span><br>
+  <span style="color: #4ec9b0;">sudo</span> systemctl status ameriboard --no-pager
 </div>
