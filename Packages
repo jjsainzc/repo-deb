@@ -54,6 +54,34 @@ Section: optional
 Priority: extra
 Description: Ameriboard reflector dashboard with embedded Angular frontend.
 
+Package: ameriboard
+Version: 1.0.3
+Architecture: arm64
+Maintainer: Amerimon <support@amerinet-hamradio.net>
+Installed-Size: 7688
+Filename: ./ameriboard_1.0.3_linux_arm64.deb
+Size: 3188164
+MD5sum: 4c49ca6da43292ceed591eed57f95833
+SHA1: 08f404ef54dc4660d60baf0110861605d7ddab4c
+SHA256: b58806ac73edfa5280c962508de7c5cf94b741ebf332220db2d375549b22fc40
+Section: optional
+Priority: extra
+Description: Ameriboard reflector dashboard with embedded Angular frontend.
+
+Package: ameriboard
+Version: 1.0.3
+Architecture: amd64
+Maintainer: Amerimon <support@amerinet-hamradio.net>
+Installed-Size: 8252
+Filename: ./ameriboard_1.0.3_linux_amd64.deb
+Size: 3513988
+MD5sum: 984872cf146dfe8b66e8fdb4b88cc774
+SHA1: 84f5feb7b905d2bf906328b1b526e6bfb372e7a4
+SHA256: 8c2982713775126a9732137b596f4b1cd0f1582c81e109517919ef35b49385c8
+Section: optional
+Priority: extra
+Description: Ameriboard reflector dashboard with embedded Angular frontend.
+
 Package: amerimon
 Version: 1.0.70
 Architecture: arm64
