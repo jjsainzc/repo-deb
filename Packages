@@ -1,32 +1,4 @@
 Package: ameriboard
-Version: 1.0.26
-Architecture: arm64
-Maintainer: Amerimon <support@amerinet-hamradio.net>
-Installed-Size: 7944
-Filename: ./ameriboard_1.0.26_linux_arm64.deb
-Size: 3273876
-MD5sum: de2d11bf1390bd5ef9df28f36e1a7636
-SHA1: b4efecde3edcc0c29018647c0476941466333c4e
-SHA256: f24ffe36485fc3e4587f48d0c9b040aec7ed91003a4fb0bd7c59e5b09d75cfef
-Section: optional
-Priority: extra
-Description: Ameriboard reflector dashboard with embedded Angular frontend.
-
-Package: ameriboard
-Version: 1.0.26
-Architecture: amd64
-Maintainer: Amerimon <support@amerinet-hamradio.net>
-Installed-Size: 8504
-Filename: ./ameriboard_1.0.26_linux_amd64.deb
-Size: 3605094
-MD5sum: b9f6ce2ccefbc860af8a4ec513d2225d
-SHA1: d570092d7dda9b0920be854615d2a6639012150d
-SHA256: cd7f2360772d16ee0bf883937f0f3a6046c02f95c8502882ec19a5e606ed2816
-Section: optional
-Priority: extra
-Description: Ameriboard reflector dashboard with embedded Angular frontend.
-
-Package: ameriboard
 Version: 1.0.27
 Architecture: arm64
 Maintainer: Amerimon <support@amerinet-hamradio.net>
@@ -78,6 +50,34 @@ Size: 3279296
 MD5sum: bf5341e9f269e29bcf96d64dfa8246ea
 SHA1: 73137c5a19029f09a0d38057ded74febc2ba7802
 SHA256: 9e16546383d3a4b804ed9e2920117d247602819daf407542ea276d27a2f8f054
+Section: optional
+Priority: extra
+Description: Ameriboard reflector dashboard with embedded Angular frontend.
+
+Package: ameriboard
+Version: 1.0.29
+Architecture: amd64
+Maintainer: Amerimon <support@amerinet-hamradio.net>
+Installed-Size: 8516
+Filename: ./ameriboard_1.0.29_linux_amd64.deb
+Size: 3609646
+MD5sum: effe24a4962a32fc448a2a52dc54c5d8
+SHA1: e6c68083cfe8a85f232ab5a7e789b1145eac0ea9
+SHA256: 995fa8586814b92215bba34654ed1494db58d1f2fc5a53f837ec87a21ff7a60b
+Section: optional
+Priority: extra
+Description: Ameriboard reflector dashboard with embedded Angular frontend.
+
+Package: ameriboard
+Version: 1.0.29
+Architecture: arm64
+Maintainer: Amerimon <support@amerinet-hamradio.net>
+Installed-Size: 7944
+Filename: ./ameriboard_1.0.29_linux_arm64.deb
+Size: 3279226
+MD5sum: 284867746c5e940d846852467338c813
+SHA1: b6eaa5b321b7e831a67a117474463798e80b14ea
+SHA256: 8d7e81153a4de4bbc02c48bdd019275e384b6017774bb68bbf2242de6357f747
 Section: optional
 Priority: extra
 Description: Ameriboard reflector dashboard with embedded Angular frontend.
